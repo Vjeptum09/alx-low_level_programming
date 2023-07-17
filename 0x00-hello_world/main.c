@@ -1,6 +1,4 @@
-julien@ubuntu:~/c/0x00$ cat main.c 
 #include <stdio.h>
-
 /**
  * main - Entry point
  *
@@ -8,5 +6,5 @@ julien@ubuntu:~/c/0x00$ cat main.c
  */
 int main(void)
 {
-    return (0);
+	return (0);
 }
