@@ -29,10 +29,9 @@ int main(void)
 			}
 			{
 				putchar('\n');
-			}
-			{
 				putchar(' ');
-			}	putchar(',');
+				putchar(',');
+			}
 		}
 		j++;
 	}
