@@ -1,7 +1,15 @@
 #include "main.h"
 /**
+ * _islower - function used to test lowercase
  *
- * _islower- Showa 1 if the input is a
- * lowercase characters: Another cases, shows 
- * 0
+ * @c: is the int used as an argument in the fuction
  *
+ * Return :0 (Success)
+ */
+int _islower(int c)
+{
+	if (c >= 'a' && c <= 'z')
+		return (1);
+	else
+		return (0);
+}
