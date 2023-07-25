@@ -5,7 +5,7 @@
  * description: ' a function that prints _putchar'
  * return:always 0
  */
-int _putchar(char c)
+int main(void)
 {
 	_putchar('_');
 	_putchar('p');
@@ -16,5 +16,6 @@ int _putchar(char c)
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
-	return: (0);
+
+	return (0);
 }
