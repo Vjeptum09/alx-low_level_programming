@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  * Description: 'printing alphabets ten times'
- * return: 0
+ * Return: 0
  */
 void print_alphabet_x10(void)
 {
