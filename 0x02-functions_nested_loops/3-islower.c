@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _islower -Shows 1 if input is lowercase character. Another case shows 0
+ * _islower - Shows 1 if input is lowercase character. Another case shows 0
  *
  * @c: is the int used as an argument in the fuction
  *
