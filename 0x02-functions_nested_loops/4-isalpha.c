@@ -2,7 +2,7 @@
 /**
  * _isalpha - function checks alphabets either lower or upper cases
  *
- * @c -int used in arguments
+ * @c:is the int used in arguments
  *
  * Return: 0
  */
