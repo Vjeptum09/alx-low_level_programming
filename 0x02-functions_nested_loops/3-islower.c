@@ -4,7 +4,7 @@
  *
  * @c: is the int used as an argument in the fuction
  *
- * Return : 1 for lowercase character and 0 for the rest
+ * Return: 1 for lowercase character and 0 for the rest
  */
 int _islower(int c)
 {
