@@ -1,41 +1,41 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
 /**
  * main - Entry point
- * Descrption: 'numbers in smallest combination'
- * Return: always 0
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int i = '0';
-	int j = '0';
 
-	while (i <= '9')
+	int d, p;
 
-
+	for (d = '0'; d < '9'; d++)
 	{
-		while (j <= '9')
 
+		for (p = d + 1; p <= '9'; p++)
 		{
-			if (!(i > j) || i == j)
-			{
-				putchar(i);
-				putchar(j);
-			{
 
-				if (i == '8' && j == '9')
+			if (p != d)
+			{
+				putchar(d);
+
+				putchar(p);
+
+				if (d == '8' && p == '9')
+
 					continue;
-			}
-
-			}
-			{
-				putchar('\n');
-				putchar(' ');
 				putchar(',');
+				putchar(' ');
+
 			}
 		}
-		j++;
+
 	}
-	j = '0';
-	i++;
-	return ('0');
+	putchar('\n');
+
+	return (0);
+
 }
